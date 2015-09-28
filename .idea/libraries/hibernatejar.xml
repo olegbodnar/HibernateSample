@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="hibernatejar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" />
+      <root url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" />
+      <root url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" />
+    </SOURCES>
+    <jarDirectory url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" recursive="false" />
+    <jarDirectory url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" recursive="false" />
+    <jarDirectory url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" recursive="false" type="SOURCES" />
+    <jarDirectory url="jar://$USER_HOME$/Downloads/hibernatejar.zip!/hibernatejar" recursive="false" type="SOURCES" />
+  </library>
+</component>
