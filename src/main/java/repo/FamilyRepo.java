@@ -18,24 +18,23 @@ public class FamilyRepo {
         FamilyRepo.factory = factory;
     }
 
+// method is used to add an Family
 
-
-    public static Integer createFamily(Family family){
-    Session session = factory.openSession();
-        Transaction transaction = null;
-        Integer familyID = null;
+    public static Integer addFamily (Family family){
+        Session session = factory.openSession();
+        Transaction tx = null;
+        Integer familyId= null;
         try {
-            transaction = session.beginTransaction();
-            familyID = (Integer) session.save(family);
-            transaction.commit();
-        }catch (HibernateException ex){
-            if (transaction != null){
-                transaction.rollback();
-                ex.printStackTrace();
+            tx = session.beginTransaction();
+            familyId = (Integer) session.save(family);
+            tx.commit();
+        } catch (HibernateException he){
+            if(tx != null){
+                tx.rollback();
             }
-        }finally {
-            session.close();
+            System.out.println(he.getMessage());
         }
-        return familyID;
+        session.close();
+        return familyId;
     }
 }

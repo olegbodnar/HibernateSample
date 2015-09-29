@@ -1,11 +1,31 @@
 package entity;
 
+import javax.persistence.*;
+
+
 public class Family {
-    private int ID;
+
+   private Integer id;
     private String firstName;
     private  String lastName;
     private String role;
 
+    public Family() {};
+
+    public Family(Integer id, String firstName, String lastName, String role) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.role = role;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -31,10 +51,8 @@ public class Family {
         this.role = role;
     }
 
-    public Family(String firstName, String lastName, String role) {
 
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.role = role;
-    }
+
+
+
 }
